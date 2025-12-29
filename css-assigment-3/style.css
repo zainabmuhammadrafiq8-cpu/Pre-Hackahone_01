@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper {
+  max-width: 1800px;
+  height: 100%;
+  margin: 0 auto;
+  /* border: 2px solid rgb(124, 243, 124); */
+}
+
+ .header{
+    max-width:1400px ;height: 80px;background-color: rgb(20, 20, 19);display: flex;flex-wrap: wrap;
+    justify-content:flex-start;align-items: center;gap: 9em;
+    position: fixed;
+    left: 0;right: 0;
+    
+}
+.header h1{
+    font-size: 40px;color: white;margin-left: 30px;
+    
+}
+.header span{
+    color: rgb(41, 228, 41);padding-left: 0;
+}
+.header a{
+    text-decoration: none;color: white;display: block;
+    display: flex;gap: 1em;
+    justify-items: space-between;align-content: center;
+}
+:hover a{
+    color: green;
+}
+.home{
+    max-width: 1400px;min-height: 650px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw-CYe5FSaDVIgs2Ypumg_PJ6XdQU2WR8Fww&s);
+    background-size: cover;
+    display: flex;justify-content: space-between;align-items: center;padding-top: 80px;
+}
+.home .para1 {
+    width: 50%;
+}
+.home.img1{
+    width: 50%;
+}
+#h1{
+    color: rgb(192, 189, 189);
+}
+.home .para1 h1{
+    color: rgb(121, 116, 116);font-size: 50px;padding-left: 50px;
+}
+.home .para1 p{
+    color: rgb(122, 119, 119);display: flex;justify-content: center;
+    padding-left: 50px;padding-top: 30px;
+}
+.btn1{
+    width: 170px;height: 50px;background-color: transparent;
+    color: green;border: 1px solid green;border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+:hover .btn1{
+    background-color:green;color: white;
+}
+.btn2{
+    width: 170px;height: 50px;color: white;
+    background-color: green;border-radius: 5px;
+    border: 1px ;font-size: 16px;
+    margin-left: 10px;
+}
+:hover .btn1{
+}
+.home .img1{
+    width: 50%;
+    padding-left: 40px;
+    position: relative; 
+    animation: bounce 2s infinite; 
+}
+.img1 img{
+    width: 500px;
+}
+
+.home2{
+    max-width: 1400px;min-height: 650px;
+}
+
+.para2 {
+   max-width:1400px ;height: 100px;
+}
+.para2 h2{
+    color: black;font-weight: bold;margin-left: 500px;padding-top: 100px;
+}
+.para2 h2 span{
+    color: green;
+}
+
+.para2 p{margin-left: 400px;
+}
+.img2 img{
+    width: 45%;
+    display: inline-block;
+height: 600px;
+margin-bottom: 250px;
+    box-shadow: 50px;
+    position: relative;  
+     animation: bounce 2s infinite; 
+}
+
+.para3
+{
+    width: 45%;  display: inline-block;padding: 10px;padding-left: 70px;
+    padding-top: 200px;
+}
+.para3 p{
+    color: rgb(143, 135, 135)}
+
+
+
+    .home3{
+    max-width: 1400px;min-height: 850px;border-top: 1px solid gray;
+}
+
+.para4 {
+   max-width:1400px ;height: 100px;padding-top: 50px;
+}
+.para4 h2{
+    color: black;font-weight: bold;margin-left: 500px;
+}
+.para4 h2 span{
+    color: green;
+}
+
+.para4 p{margin-left: 400px;
+}
+.para5{
+    width: 1400px;
+    height: 650px;
+}
+.para5 p
+{
+    width: 40%; 
+        padding-left: 60px;
+        padding-top: 20px;
+
+
+}
+.para5 h1{
+    color: rgb(121, 116, 116);font-size: 50px;
+    padding-left: 60px;
+    font-weight: bold;
+    width: 20%;
+    padding-top: 50px;
+}
+.img3 img{
+    width: 50%;
+    display: inline-block;
+    height: 500px;
+    box-shadow: 50px;
+    position: relative;  
+     animation: bounce 2s infinite; 
+}
+
+
+.btn3{
+    width: 170px;height: 50px;background-color: transparent;
+    color: green;border: 1px solid green;border-radius: 5px;
+    font-size: 16px;display: inline-block;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+:hover .btn3{
+    background-color:green;color: white;
+}
+.btn4{
+    width: 170px;height: 50px;color: white;
+    background-color: green;border-radius: 5px;
+    border: 1px ;font-size: 16px;display: inline-block;
+}
+
+.number{
+    width: 1400px;height: 400px;
+    background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/31/149627-HDR-building-cityscape.jpg);
+background-size: cover;
+}
+.number h2{
+    color: white;font-weight: bold;
+    padding-top: 50px;display: flex;
+    justify-content: center;
+}
+.number p{
+    display: inline-block;
+    color: rgb(151, 142, 142);
+    display: flex;
+justify-content: center;
+}
+.item{
+    display: flex;justify-content: space-evenly;gap: 2em;
+}
+.item .items{
+    display: flex;flex-direction: column;
+    color: white;
+}
+.items i{
+    font-size: 50px;
+    padding-left: 60px;
+}
+.items b {
+    font-size: 100px;
+    font-weight: bolder;
+    
+}
+.items span{
+    font-size: 30px;
+}
+.item1 h1{
+    padding-top: 30px;display: flex;
+    justify-content: center;
+    font-variant-caps: all-petite-caps;
+    font-size: 50px;
+    font-weight: bold;
+}
+.item1 span{
+    color: green;
+    padding-left: 10px;
+}
+.item1 p{
+    padding: 20px;justify-content: space-around;
+}
+.item3{
+    height: 300px;
+    background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/31/149627-HDR-building-cityscape.jpg);
+background-size: cover;
+}
+.item3 h1{
+        padding-top: 30px;display: flex;
+    justify-content: center;
+    font-variant-caps: all-petite-caps;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+
+}
+.item3 p{
+            padding-top: 30px;display: flex;
+    justify-content: space-around;align-items: center;
+    margin: 0 auto;
+
+}
+.item3 button{
+    width: 170px;height: 50px;color: white;
+    background-color: green;border-radius: 5px;
+    border: 1px ;font-size: 16px;display: inline-block;
+justify-items: center;
+}
+
+.para4 p{margin-left: 400px;}
+@keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+            animation-timing-function: ease-in;
+        }
+        50% {
+            transform: translateY(40px);
+            animation-timing-function: ease-out;
+        }
+    }
+
+    
+
+
+
+
+
+
+@media(max-width:1140px){
+     .header{
+        flex-wrap: nowrap;gap: 6em;
+    }
+}
+@media(max-width:1140px){
+     .header{
+        flex-wrap: nowrap;gap: 6em;
+    }
+}
+@media(max-width:1000px)  {   .header .home {
+        flex-wrap: nowrap;gap: 3em;
+    }
+}
+
+@media(max-width:950px){
+.home {
+    display: flex;flex-direction: column;
+}
+.home .para1 {
+    width: 90%;
+}
+.home.img1{
+    align-items: center;
+    margin: 0 auto;
+}
+
+}
