@@ -12,7 +12,7 @@
     width: 600px!important;
     padding-top: 50px;
 }
-.head1{
+/* .head1{
     font-size: 60px !important;
     padding-top: 50px !important;
     padding-left: 22px !important;
@@ -23,7 +23,7 @@
     width: 400px !important;
     color: gray !important;
     padding: 5px;
-}
+} */
 .btn{
     width: 160px !important;
     height: 50px !important;
@@ -84,4 +84,21 @@ span{
 
 .my1 p{
     font-size: 20px;
+}
+.head3{
+    display: flex;justify-content: space-between;padding-top: 100px;
+}
+.head4 h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 200px;
+    padding-bottom: 30px;
+}
+.head4 p{
+    width: 400px;
+}
+@media(max-width:1000px){
+    .content{
+        flex-direction: column;
+    }
 }
